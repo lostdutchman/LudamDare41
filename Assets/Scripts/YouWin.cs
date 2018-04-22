@@ -7,10 +7,11 @@ public class YouWin : MonoBehaviour {
 	public float Pause = .5f;
 
 	void Start(){
-		Merit();
+		StartCoroutine(Merit());
 	}
 
 	IEnumerator Merit() {
+		yield return new WaitForSeconds (Pause * 2);
 		M1.SetActive (true);
 		yield return new WaitForSeconds (Pause);
 		M2.SetActive (true);
