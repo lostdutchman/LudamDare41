@@ -25,8 +25,12 @@ public class LevelManager : MonoBehaviour {
 	public void LoadNextLevel(){
 		Application.LoadLevel (Application.loadedLevel + 1);
 	}
-	// Update is called once per frame
-	void Update () {
-	
+
+	public void LoadRandomLevel(){
+		if (Random.Range (0, 1) == 0) {
+			Application.LoadLevel ("PHXOpen");
+		} else {
+			Application.LoadLevel ("KansasOpen");
+		}
 	}
 }

@@ -7,7 +7,6 @@ public class MenuFade : MonoBehaviour {
 	public Image Fade;
 	public GameObject FadeObj;
 
-	// Use this for initialization
 	void Start () {
 		Fade.CrossFadeAlpha (0f, 3.5f, false);
 		StartCoroutine(FadeWait ());
