@@ -8,11 +8,17 @@
 */
 
 var playerHealth : PlayerHealth;
+static var ShotsFired;
 
 function Start(){
 	playerHealth = this.GetComponent(PlayerHealth);
+	ShotsFired = 0;
+}
+
+static function Shot(){
+	ShotsFired++;
 }
 
 function OnGUI(){
-		GUI.Box(Rect(10,Screen.height-30,100,20),"Health: "+Mathf.Round(playerHealth.health));
+		GUI.Box(Rect(10,Screen.height-30,100,20),"Strokes: " + ShotsFired);
 }

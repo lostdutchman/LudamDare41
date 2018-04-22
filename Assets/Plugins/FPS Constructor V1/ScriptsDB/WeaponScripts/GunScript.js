@@ -849,6 +849,7 @@ function FireShot(){
 		shotSpread = Mathf.Clamp(shotSpread + spreadRate, 0, maxSpread);
 		chargeLevel = 0;
 		FireEffects ();
+		HealthDisplay.Shot();
 }
 	
 function FireOneProjectile(){

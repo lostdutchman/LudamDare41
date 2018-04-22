@@ -31,7 +31,7 @@ function HighlightOff () {
 function OnGUI () {
 	GUI.skin.box.wordWrap = true;
 	if(selected && !DBStoreController.inStore){
-		var s : String = "(Tab) to Select";
+		var s : String = "(Space) to Select";
 		if(equipped){
 			s = "(Already Equipped)";
 		}
