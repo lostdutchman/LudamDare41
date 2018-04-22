@@ -7,7 +7,7 @@ public class Menu : MonoBehaviour {
 	{
 		if (Input.GetKeyDown(KeyCode.Escape))
 		{
-			Application.LoadLevel("Opening");
+			Application.LoadLevel("OpeningAlt");
 		}
 	}
 	
