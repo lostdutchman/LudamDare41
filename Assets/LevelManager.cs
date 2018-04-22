@@ -7,9 +7,11 @@ public class LevelManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Invoke ("LoadNextLevel", autoLoadNextLevelAfter); 
+		if (Application.loadedLevel == 0)
+		{
+			Invoke ("LoadNextLevel", autoLoadNextLevelAfter); 
+		}
 	}
-
 	public void LoadLevel(string name){
 		Debug.Log ("New Level Load: " + name);
 		Application.LoadLevel (name);
