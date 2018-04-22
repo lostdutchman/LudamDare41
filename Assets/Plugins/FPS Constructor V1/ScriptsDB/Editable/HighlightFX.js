@@ -26,7 +26,7 @@ function HighlightOff () {
 function OnGUI () {
 	GUI.skin.box.wordWrap = true;
 	if(selected && !DBStoreController.inStore){
-		var s : String = "(Tab) to Use";
+		var s : String = "(Space) to Pickup";
 
 		var pos : Vector2 = Camera.main.WorldToScreenPoint(transform.position);
 		GUI.Box(Rect(pos.x-77.5, Screen.height-pos.y-(Screen.height/4)-52.5,155, 105), objectName + "\n \n" + description + "\n" + s);
