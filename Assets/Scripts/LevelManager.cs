@@ -27,7 +27,7 @@ public class LevelManager : MonoBehaviour {
 	}
 
 	public void LoadRandomLevel(){
-		if (Random.Range (0, 1) == 0) {
+		if (Random.Range (0, 2) == 0) {
 			Application.LoadLevel ("PHXOpen");
 		} else {
 			Application.LoadLevel ("KansasOpen");
