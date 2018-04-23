@@ -7,7 +7,7 @@ public class Hole : MonoBehaviour {
 	{
 		if (InHole.tag == "Ball") 
 		{
-			Application.LoadLevel(Application.loadedLevel +1);
+			Application.LoadLevel("Win");
 		}
 	}
 }
