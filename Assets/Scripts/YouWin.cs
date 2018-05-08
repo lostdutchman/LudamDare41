@@ -23,5 +23,7 @@ public class YouWin : MonoBehaviour {
 		M5.SetActive (true);
 		yield return new WaitForSeconds (Pause * 2);
 		Victory.SetActive (true);
+		yield return new WaitForSeconds (Pause * 2);
+		Application.LoadLevel ("Credits");
 	}
 }
