@@ -14,7 +14,7 @@ Ludum Dare is one of the world's largest and longest running Game Jam events. Ev
 
 For a list of our favorite games from LD41 or to play our game check out our [itch.io](https://itch.io/c/307175/ludum-dare-41) 
 
-If you want to use this code base to make your own game feel free, it is absolutely free to use so long as you are not making a propaganda game(No racist, Sexist, Homophobic, Transphobic, Xenophobic.. Ect.. content. If you want to make that kind of trash then I’m not here to save you 72 hrs of work). If your not sure or want further clarification reach out to us. 
+If you want to use this code base to make your own game feel free, it is absolutely free to use so long as you are not making a propaganda game(No racist, Sexist, Homophobic, Transphobic, Xenophobic.. Ect.. content. If you want to make that kind of trash then I’m not here to save you 72 hrs of work). Please also remove our logo/splash screen if you decide to publish this. If you need further clarification reach out to us. 
 
 For more from us:
 * [LostDutchmanSoftware.com](http://lostdutchmansoftware.com/)
